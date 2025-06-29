@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-color-theme="ocean">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Criativo | Daniel Alves Silva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="dark-theme">
+    <div id="cursor-glow"></div>
+    <div class="theme-switcher-container">
+        <button id="theme-toggle-btn"><i id="theme-icon" class="fa-solid fa-moon"></i></button>
+        <div class="color-palette">
+            <button class="color-swatch active" data-color="ocean"  style="--swatch-color:#2A9D8F"></button>
+            <button class="color-swatch"           data-color="sunset" style="--swatch-color:#E76F51"></button>
+            <button class="color-swatch"           data-color="violet" style="--swatch-color:#9b59b6"></button>
+            <button class="color-swatch"           data-color="forest" style="--swatch-color:#27ae60"></button>
+        </div>
+    </div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="name-title">Daniel Alves Silva</h1>
+            <p class="subtitle">Desenvolvedor <span id="typing-effect"></span></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/daniel-alves-9023a324b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/danielsilvaa2202" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <a class="main-btn" href="#about">Conheça Meu Trabalho <i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+        <div class="hero-bottom-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path class="shape-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86 82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"/>
+            </svg>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <div class="about-content animate-on-scroll">
+                <div class="profile-pic-container"><img src="img/meprof.jpeg" alt="Daniel Alves Silva"></div>
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p>Tenho 20 anos, sou graduado em Análise e Desenvolvimento de Sistemas e atuo criando automações, APIs e sistemas principalmente na parte visual com telas e dashboards que simplificam rotinas empresariais. Apaixonado por aprendizado contínuo — de Python à UI Design — busco entregar soluções que geram valor e dados acionáveis.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="container">
+            <h2 class="section-title animate-on-scroll">Projetos em Destaque</h2>
+            <div class="project-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="card-content">
+                        <i class="fa-solid fa-file-excel card-icon"></i>
+                        <h3>Extrator de XML → Excel</h3>
+                        <p>Extrai dados de centenas de XMLs fiscais e gera planilhas prontas para análise.</p>
+                        <a class="repo-link" href="https://github.com/danielsilvaa2202/extrator_XML" target="_blank">Repositório <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="card-content">
+                        <i class="fa-solid fa-calculator card-icon"></i>
+                        <h3>Gerador de Alíquotas</h3>
+                        <p>Calcula ICMS/ISS do Simples Nacional por faixa de faturamento, acelerando diagnóstico tributário.</p>
+                        <a class="repo-link" href="https://github.com/danielsilvaa2202/aliquota_efetiva" target="_blank">Repositório <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="card-content">
+                        <i class="fa-solid fa-magnifying-glass-chart card-icon"></i>
+                        <h3>Consulta CNPJ em Lote</h3>
+                        <p>Integra múltiplas APIs para coletar dados empresariais e exportar relatórios completos em Excel.</p>
+                        <a class="repo-link" href="https://github.com/danielsilvaa2202/consulta-cnpj" target="_blank">Repositório <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="card-content">
+                        <i class="fa-solid fa-clinic-medical card-icon"></i>
+                        <h3>Sistema Clínico Completo</h3>
+                        <p>App web (Vite + React + TS) para gestão de agenda, prontuário e e-mails automáticos.</p>
+                        <a class="repo-link" href="https://github.com/danielsilvaa2202/Clinicavidaesaude" target="_blank">Repositório <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="card-content">
+                        <i class="fa-solid fa-globe card-icon"></i>
+                        <h3>Landing Page ZengaTax</h3>
+                        <p>Landing institucional responsiva e otimizada para geração de leads.</p>
+                        <a class="repo-link" href="https://zengatax.com.br/" target="_blank">Acessar Site <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-projects animate-on-scroll">
+                <a class="main-btn" href="https://github.com/danielsilvaa2202" target="_blank">Ver Todos os Projetos</a>
+            </div>
+        </section>
+        <section id="skills" class="container">
+            <h2 class="section-title animate-on-scroll">Competências Principais</h2>
+            <div class="skills-grid">
+                <div class="skill-card animate-on-scroll">
+                    <i class="fa-solid fa-robot"></i>
+                    <h4>Automação de Processos</h4>
+                    <p>RPA, scraping, integrações low-code.</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h4>Back-end & APIs</h4>
+                    <p>Flask, FastAPI e serviços REST.</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Front-end</h4>
+                    <p>React, Vite, UX responsivo.</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h4>KPI & Dashboards</h4>
+                    <p>Power BI, SQL e storytelling.</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <i class="fa-solid fa-database"></i>
+                    <h4>Modelagem de Dados</h4>
+                    <p>SQL Server, PostgreSQL, MongoDB.</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h4>Gestão de Ativos de TI</h4>
+                    <p>Inventário, orçamento, compras.</p>
+                </div>
+            </div>
+        </section>
+        <section id="tools" class="container">
+            <h2 class="section-title animate-on-scroll">Ferramentas & Tecnologias</h2>
+            <div class="tools-grid">
+                <div class="tool-category-card animate-on-scroll">
+                    <div class="tool-header"><i class="fa-solid fa-code"></i><h3>Linguagens</h3></div>
+                    <ul>
+                        <li>Python</li>
+                        <li>Flask, FastAPI</li>
+                        <li>JavaScript & TypeScript</li>
+                        <li>React</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+                <div class="tool-category-card animate-on-scroll">
+                    <div class="tool-header"><i class="fa-solid fa-cloud"></i><h3>DevOps</h3></div>
+                    <ul>
+                        <li>Google Cloud</li>
+                        <li>AWS (S3, IAM)</li>
+                        <li>Cloud Functions</li>
+                    </ul>
+                </div>
+                <div class="tool-category-card animate-on-scroll">
+                    <div class="tool-header"><i class="fa-solid fa-database"></i><h3>Bancos & BI</h3></div>
+                    <ul>
+                        <li>MySQL / PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>Power BI</li>
+                        <li>Pandas & SQLAlchemy</li>
+                    </ul>
+                </div>
+                <div class="tool-category-card animate-on-scroll">
+                    <div class="tool-header"><i class="fa-solid fa-gear"></i><h3>Automação</h3></div>
+                    <ul>
+                        <li>Power Automate</li>
+                        <li>Selenium</li>
+                        <li>PyAutoGUI</li>
+                        <li>Requests</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Vamos criar algo incrível juntos?</h3>
+        <p>Entre em contato e transforme ideias em resultados.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/daniel-alves-9023a324b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/danielsilvaa2202" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="contact-info">
+            <p><i class="fa-solid fa-envelope"></i> danielsilvaa2202@outlook.com</p>
+            <p><i class="fa-solid fa-phone"></i> (41) 99505-3789</p>
+            <p><i class="fa-solid fa-location-dot"></i> Curitiba – PR</p>
+        </div>
+        <p class="copyright">&copy; 2025 Daniel Alves Silva. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
